@@ -1,0 +1,16 @@
+{
+  "name": "WebDriver Bidi Dev",
+  "build": {
+    "dockerfile": "../dev/dockerfile-build-bidi-spec"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-vscode.cpptools",
+        "rust-lang.rust-analyzer",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
